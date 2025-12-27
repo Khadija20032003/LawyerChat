@@ -1,0 +1,75 @@
+2025-12-26 13:16:03,168 - INFO - Use pytorch device_name: mps
+2025-12-26 13:16:03,169 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-26 13:16:06,879 - INFO - ============================================================
+2025-12-26 13:16:06,881 - INFO - Starting SEC daily ingestion
+2025-12-26 13:16:06,881 - INFO - ============================================================
+2025-12-26 13:16:06,882 - INFO - Target date: 2025-12-25
+2025-12-26 13:16:06,883 - INFO - Fetching filings for: 2025-12-25
+2025-12-26 13:16:07,339 - INFO - No index file available for 2025-12-25. This is likely due to a weekend or federal holiday.
+2025-12-26 13:16:07,344 - INFO - No 10-K filings found in the index.
+2025-12-26 13:16:07,401 - INFO - ℹ No filings from this date in the vector database.
+2025-12-26 13:16:07,402 - INFO - Reason: Weekend, federal holiday, or genuinely no 10-K filings on this date
+2025-12-26 13:16:29,266 - INFO - Use pytorch device_name: mps
+2025-12-26 13:16:29,267 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-26 13:16:32,579 - INFO - ============================================================
+2025-12-26 13:16:32,579 - INFO - Starting SEC daily ingestion
+2025-12-26 13:16:32,580 - INFO - ============================================================
+2025-12-26 13:16:32,581 - INFO - Target date: 2025-12-22
+2025-12-26 13:16:32,582 - INFO - Fetching filings for: 2025-12-22
+2025-12-26 13:16:33,188 - INFO - Total filings in index: 0
+2025-12-26 13:16:33,189 - INFO - No 10-K/10-K/A filings found for 2025-12-22
+2025-12-26 13:16:33,193 - INFO - No 10-K filings found in the index.
+2025-12-26 13:16:33,196 - INFO - ℹ No filings from this date in the vector database.
+2025-12-26 13:16:33,197 - INFO - Reason: Weekend, federal holiday, or genuinely no 10-K filings on this date
+2025-12-26 13:19:36,229 - INFO - Use pytorch device_name: mps
+2025-12-26 13:19:36,231 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-26 13:19:39,376 - INFO - ============================================================
+2025-12-26 13:19:39,377 - INFO - TESTING: November 6, 2025
+2025-12-26 13:19:39,378 - INFO - ============================================================
+2025-12-26 13:19:39,379 - INFO - 
+1. Checking if 2025-11-06 exists in vector database...
+2025-12-26 13:19:39,385 - INFO - ✓ Data from 2025-11-06 FOUND in vector database
+2025-12-26 13:19:39,385 - INFO - 
+2. Attempting to fetch 2025-11-06 from SEC daily index...
+2025-12-26 13:19:39,386 - INFO - Fetching filings for: 2025-11-06
+2025-12-26 13:19:40,163 - INFO - Total filings in index: 0
+2025-12-26 13:19:40,164 - INFO - No 10-K/10-K/A filings found for 2025-11-06
+2025-12-26 13:19:40,167 - INFO - ✗ No 10-K filings found in SEC index for 2025-11-06
+2025-12-26 13:19:40,168 - INFO - 
+============================================================
+2025-12-26 13:19:40,169 - INFO - SUMMARY
+2025-12-26 13:19:40,170 - INFO - ============================================================
+2025-12-26 13:19:40,171 - INFO - Date tested: 2025-11-06
+2025-12-26 13:19:40,172 - INFO - In vector DB: YES
+2025-12-26 13:19:40,173 - INFO - In SEC index: NO
+2025-12-26 13:19:40,174 - INFO - Status: ⚠️  Data mismatch (in DB but not in current SEC index)
+2025-12-26 13:19:40,176 - INFO - 
+4. Checking manifest.jsonl for 2025-11-06...
+2025-12-26 13:19:40,178 - INFO -   Found: VISA INC. - 0001403161-25-000089
+2025-12-26 13:19:40,181 - INFO - ✓ Found 1 entries in manifest for 2025-11-06
+2025-12-26 13:19:40,182 - INFO - 
+============================================================
+2025-12-26 13:38:04,726 - INFO - Use pytorch device_name: mps
+2025-12-26 13:38:04,727 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-26 13:38:07,475 - INFO - ============================================================
+2025-12-26 13:38:07,475 - INFO - Starting SEC daily ingestion
+2025-12-26 13:38:07,476 - INFO - ============================================================
+2025-12-26 13:38:07,477 - INFO - Target date: 2025-12-22
+2025-12-26 13:38:07,478 - INFO - Fetching filings for: 2025-12-22
+2025-12-26 13:38:08,084 - INFO - Total filings in index: 0
+2025-12-26 13:38:08,085 - INFO - No 10-K/10-K/A filings found for 2025-12-22
+2025-12-26 13:38:08,089 - INFO - No 10-K filings found in the index.
+2025-12-26 13:38:08,108 - INFO - ℹ No filings from this date in the vector database.
+2025-12-26 13:38:08,109 - INFO - Reason: Weekend, federal holiday, or genuinely no 10-K filings on this date
+2025-12-26 14:27:03,668 - INFO - Use pytorch device_name: mps
+2025-12-26 14:27:03,669 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-26 14:27:06,937 - INFO - ============================================================
+2025-12-26 14:27:06,938 - INFO - Starting SEC daily ingestion
+2025-12-26 14:27:06,939 - INFO - ============================================================
+2025-12-26 14:27:06,939 - INFO - Target date: 2025-12-22
+2025-12-26 14:27:06,940 - INFO - Fetching filings for: 2025-12-22
+2025-12-26 14:27:07,830 - INFO - Total filings in index: 0
+2025-12-26 14:27:07,831 - INFO - No 10-K/10-K/A filings found for 2025-12-22
+2025-12-26 14:27:07,836 - INFO - No 10-K filings found in the index.
+2025-12-26 14:27:07,851 - INFO - ℹ No filings from this date in the vector database.
+2025-12-26 14:27:07,851 - INFO - Reason: Weekend, federal holiday, or genuinely no 10-K filings on this date

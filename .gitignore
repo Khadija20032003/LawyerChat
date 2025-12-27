@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts 
+retrieved_10k/
+chroma_sec/
+data/
+*.sqlite3
+*.parquet
+
+# OS
+.DS_Store
+
+.env
+.env.local
+*.key
