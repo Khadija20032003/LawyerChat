@@ -18,8 +18,8 @@ if os.path.exists(src_path) and src_path not in sys.path:
 
 # Now import from sec_risk
 try:
-    from sec_risk import SecClient, init_chroma, load_seen_accessions, check_date_in_vectordb
-    from sec_risk.pipeline import ingest_provided_filings, ProvidedFiling, IngestConfig
+    from sec_risk_factors import SecClient, init_chroma, load_seen_accessions, check_date_in_vectordb
+    from sec_risk_factors.pipeline import ingest_provided_filings, ProvidedFiling, IngestConfig
 except ModuleNotFoundError as e:
     print("=" * 60)
     print("ERROR: sec_risk package not found!")
