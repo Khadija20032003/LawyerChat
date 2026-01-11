@@ -64,18 +64,12 @@ git clone https://github.com/FatimaZh/LawyerChat.git
 cd LawyerChat
 ```
 
-2. **Create virtual environment** (recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies**
+2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run the application**
+3. **Run the application**
 ```bash
 python chatbot/app.py
 ```
