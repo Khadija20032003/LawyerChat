@@ -39,7 +39,8 @@ jobs:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
         PYTHONPATH: ${{ github.workspace }}/src:${{ github.workspace }}
       run: |
-        python daily_update_hf.py
+        export PYTHONPATH=.
+        python scripts/daily_update_hf.py
     
     - name: Upload logs as artifact
       if: always()
